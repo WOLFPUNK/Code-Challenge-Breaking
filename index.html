@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333333;
+  text-align: center;
+}
+
+p {
+  color: #666666;
+  margin: 10px;
+}
+
+input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0099ff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+</style>
+<script src="function.js"></script>
+</head>
+<body>
+<h1>Code Breaking Challenge</h1>
+<p>Enter a text and click the button to encrypt it.</p>
+<input type="text" id="input" size="50" placeholder="Enter your text here">
+<button onclick="showEncrypted()">Encrypt</button>
+<p>Encrypted text:</p>
+<input type="text" id="output" readonly></input>
+</body>
+</html>
